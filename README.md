@@ -1,0 +1,2 @@
+# ArgenDaniilGroupProject
+Finance manager app
