@@ -21,7 +21,7 @@
       </AnchorPane>
       <AnchorPane layoutX="138.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="eda" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -30,12 +30,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="edaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" textAlignment="CENTER" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="252.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="jile" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -44,12 +44,13 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="jileL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="24.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Label fx:id="gigienaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" textAlignment="CENTER" />
+            <Button fx:id="gigiena" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -58,12 +59,11 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="366.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="mashina" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -72,12 +72,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="mashinaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="480.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="odejda" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -86,12 +86,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="odejdaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="138.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="kafe" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -100,12 +100,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="kafeL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="252.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="scheta" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -114,12 +114,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="schetaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="24.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="zdorovie" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -128,12 +128,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="zdorovieL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="366.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="taxi" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -142,12 +142,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="taxiL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="480.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="razvlecheniya" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -156,12 +156,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="razvlecheniyaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="138.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="pitomsy" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -170,12 +170,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="pitomsyL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="252.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="svyaz" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -184,12 +184,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="svyazL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="24.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="sport" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -198,12 +198,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="sportL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="366.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="transport" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -212,12 +212,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="transportL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="480.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="podarki" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -226,17 +226,17 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="podarkiL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
-      <TextField alignment="CENTER" layoutX="189.0" layoutY="481.0" prefHeight="50.0" prefWidth="223.0" promptText="Добавить запись" style="-fx-background-color: #F2FFF6;">
+      <TextField fx:id="add" alignment="CENTER" layoutX="189.0" layoutY="481.0" prefHeight="50.0" prefWidth="223.0" promptText="Добавить запись" style="-fx-background-color: #F2FFF6;">
          <font>
             <Font name="Arial Black" size="17.0" />
          </font>
       </TextField>
       <AnchorPane layoutX="252.0" layoutY="573.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="zarplata" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -245,12 +245,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="zarplataL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="414.0" layoutY="573.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="sberejeniya" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -259,12 +259,12 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="sberejeniyaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="90.0" layoutY="573.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+            <Button fx:id="depoziti" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -273,15 +273,15 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Label layoutX="34.0" layoutY="80.0" />
+            <Label fx:id="depozitiL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
          </children>
       </AnchorPane>
-      <Label alignment="CENTER" layoutX="445.0" layoutY="481.0" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #F2FFF6;" text="расходы:500" textFill="#9a0000">
+      <Label fx:id="rashody" alignment="CENTER" layoutX="445.0" layoutY="481.0" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #F2FFF6;" text="Расходы: 0" textFill="#9a0000">
          <font>
             <Font name="Arial Black" size="13.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="25.0" layoutY="481.0" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #F2FFF6;" text="счёт: 500" textFill="#008d07">
+      <Label fx:id="schet" alignment="CENTER" layoutX="25.0" layoutY="481.0" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #F2FFF6;" text="Счёт: 0" textFill="#008d07">
          <font>
             <Font name="Arial Black" size="13.0" />
          </font>
