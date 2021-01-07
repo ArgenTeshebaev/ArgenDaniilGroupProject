@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="80.0" prefWidth="600.0" style="-fx-background-color: #560087;">
+         <children>
+            <Label layoutX="167.0" layoutY="15.0" prefHeight="50.0" prefWidth="267.0" text="Finance manager" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cooper Black" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="138.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="eda" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_05.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="edaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="252.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="jile" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_07.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="jileL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="24.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Label fx:id="gigienaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" textAlignment="CENTER" />
+            <Button fx:id="gigiena" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_03.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="366.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="mashina" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_14.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="mashinaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="480.0" layoutY="103.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="odejda" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_18.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="odejdaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="138.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="kafe" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_13.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="kafeL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="252.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="scheta" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_30.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="schetaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="24.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="zdorovie" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_12.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="zdorovieL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="366.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="taxi" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_31.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="taxiL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="480.0" layoutY="223.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="razvlecheniya" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_24.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="razvlecheniyaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="138.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="pitomsy" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_19.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="pitomsyL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="252.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="svyaz" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_25.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="svyazL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="24.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="sport" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_26.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="sportL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="366.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="transport" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_32.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="transportL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="480.0" layoutY="340.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="podarki" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/imgs_20.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="podarkiL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="add" alignment="CENTER" layoutX="189.0" layoutY="481.0" prefHeight="50.0" prefWidth="223.0" promptText="Добавить запись" style="-fx-background-color: #F2FFF6;">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </TextField>
+      <AnchorPane layoutX="252.0" layoutY="573.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="zarplata" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/add_05.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="zarplataL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="414.0" layoutY="573.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="sberejeniya" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/add_07.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="sberejeniyaL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="90.0" layoutY="573.0" prefHeight="100.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+         <children>
+            <Button fx:id="depoziti" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #F2FFF6;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/add_03.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="depozitiL" alignment="CENTER" layoutY="80.0" prefHeight="17.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="rashody" alignment="CENTER" layoutX="445.0" layoutY="481.0" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #F2FFF6;" text="Расходы: 0" textFill="#9a0000">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="schet" alignment="CENTER" layoutX="25.0" layoutY="481.0" prefHeight="50.0" prefWidth="131.0" style="-fx-background-color: #F2FFF6;" text="Счёт: 0" textFill="#008d07">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
