@@ -2,7 +2,7 @@
 <br> Finance manager app
 
 <br>This financial manager program allows you to record expenses by category so that you can clearly see what the income goes to
-
+<br>[Video Presentation](https://www.youtube.com/watch?v=LmqxH8xr3eA&feature=youtu.be&ab_channel=%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%D0%90%D0%BB%D1%91%D1%88%D0%B8%D0%BD)
 <br> No entries
 ![alt text](https://sun9-68.userapi.com/impg/H487PudRSDTVP8P4RWbGnXeZTqjUMxRQGguZxg/hcYsgHAH_a4.jpg?size=599x730&quality=96&proxy=1&sign=a62ade5c5dc0716e8169c05a77ebf9f7&type=album)
 
@@ -13,4 +13,4 @@
 
 <br> Recordings
 ![alt text](https://sun9-24.userapi.com/impg/F9XRyDNRyjNBKERa8PjNzOyRCz43ZVoAqJJy8g/uDSYXsKYGbw.jpg?size=599x729&quality=96&proxy=1&sign=504ed0ee070f5828c5a7b15299446c44&type=album)
-Video Presentation: https://youtu.be/LmqxH8xr3eA .
+
