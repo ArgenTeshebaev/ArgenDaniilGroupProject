@@ -1,5 +1,5 @@
 # Argen and Daniil group project
-#Finance manager app
+<br> Finance manager app
 
 <br>This financial manager program allows you to record expenses by category so that you can clearly see what the income goes to
 
